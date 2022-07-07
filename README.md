@@ -2,18 +2,6 @@
 
 <br/>
 
-### Approach
-
-1. Model is built with using ReactDOM.createPortal.
-2. Portals provide a first-class way to render children into a DOM node that exists outside the DOM hierarchy of the parent component. A typical use case for portals is when a parent component has an overflow: hidden or z-index style.
-3. Initially I was going to use CSSTransition component from react-transition-group to animate the modal in and out.
-
-### Blockers:
-
-1. Using react-transition-group in React 18 has an issue. Issue is with CSSTransition component state transitions classNames.
-
-<br/>
-
 # Installation and Setup Instructions
 
 **_NOTE:_** <span style="color:red">This is a custom Vite JS Boilerplate I have been working on as a side project for my tech tasks</span>
