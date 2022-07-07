@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout renders layout onboarding without token 1`] = `<DocumentFragment />`;
+
+exports[`Layout renders layout onboarding without token 2`] = `Array []`;
+
+exports[`Layout renders layout with isLoading 1`] = `null`;
+
+exports[`Layout renders layout with isLoading 2`] = `Array []`;
+
+exports[`Layout renders protected route with isLoading 1`] = `<DocumentFragment />`;
+
+exports[`Layout renders protected route with isLoading 2`] = `Array []`;
+
+exports[`Layout renders protected route without token 1`] = `null`;
+
+exports[`Layout renders protected route without token 2`] = `Array []`;

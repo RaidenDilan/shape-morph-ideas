@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/Users/Raiden/development/.boilerplates/vite-boilerplate/__tests__/components/Footer.spec.tsx should render without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="Footer"
+    data-testid="footer"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="logo-container"
+      >
+        <img
+          alt="Brand Logo"
+          data-testid="brand-logo-img"
+          src="[object Object]"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

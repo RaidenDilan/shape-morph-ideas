@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`/Users/raidendilan/Downloads/BOILERPLATES/dilanraiden57ezuh/__tests__/screens/Main.spec.tsx should render without crashing 1`] = `
+exports[`/Users/Raiden/development/.boilerplates/vite-boilerplate/__tests__/screens/Main.spec.tsx should render without crashing 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -8,12 +8,7 @@ Object {
       <div
         class="Main"
       >
-        <button
-          class="show-modal"
-          data-testid="show-modal"
-        >
-          Show Modal
-        </button>
+        Main
       </div>
     </div>
   </body>,
@@ -21,12 +16,7 @@ Object {
     <div
       class="Main"
     >
-      <button
-        class="show-modal"
-        data-testid="show-modal"
-      >
-        Show Modal
-      </button>
+      Main
     </div>
   </div>,
   "debug": [Function],
