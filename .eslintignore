@@ -1,0 +1,33 @@
+# Artifacts
+
+# Production
+build
+
+# Testing Cpverage
+coverage
+
+# Logs
+logs
+
+# Dependencies
+node_modules
+
+public
+run
+
+# IDEs
+.idea
+.vscode
+
+src/index.d.ts
+tsconfig.json
+jest-setup.js
+jest.config.js
+vite.config.js
+babel.config.js
+fileTransformer.js
+config/*
+
+# NPM
+package-lock.json
+package.json

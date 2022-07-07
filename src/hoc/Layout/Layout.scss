@@ -1,0 +1,8 @@
+@import '../../theme/colors.module.scss';
+@import '../../theme/mixins.module.scss';
+@import '../../theme/viewport.module.scss';
+
+.Layout {
+  @include flexColumn;
+  min-height: 100vh;
+}

@@ -1,0 +1,26 @@
+@import '../../theme/colors.module.scss';
+@import '../../theme/mixins.module.scss';
+
+.FullScreenSpinner {
+  z-index: 50;
+  background-color: $DB1;
+  transition: opacity 0.25s ease-out;
+
+  &.FullWidth {
+    @include position(absolute, 0, 0, 0, 0);
+    @include flex(center, center, false);
+  }
+
+  &.FullScreen {
+    @include hw(100%, 100%);
+    @include position(fixed, 0, 0, 0, 0);
+  }
+
+  &.invisible {
+    opacity: 0;
+  }
+
+  &.visible {
+    opacity: 0.75;
+  }
+}

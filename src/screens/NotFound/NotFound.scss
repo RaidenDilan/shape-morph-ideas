@@ -1,0 +1,13 @@
+@import '../../theme/colors.module.scss';
+@import '../../theme/mixins.module.scss';
+
+.NotFound {
+  @include flex(center, center, true);
+  min-height: calc(100vh - 8em);
+  backdrop-filter: blur(6px) grayscale(25%);
+
+  h1 {
+    color: $White;
+    font-size: 5em;
+  }
+}
